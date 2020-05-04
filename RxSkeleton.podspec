@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RxSkeleton"
-  spec.version      = "0.0.9"
+  spec.version      = "0.1.0"
   spec.summary      = "Support for using SkeletonView with RxDataSources."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = 'As you can see, when using RxDataSources, we can not just use SkeletonView together, so I wrote this code to support for using SkeletonView with RxDataSources.'
 
-  spec.homepage     = "https://github.com/AnyOptional/RxSkeleton"
+  spec.homepage     = "https://github.com/dvera128/RxSkeleton"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/AnyOptional/RxSkeleton.git", :commit => "845a8642793957d9734a4dbe306524b992468dbb" }
+  spec.source       = { :git => "https://github.com/dvera128/RxSkeleton.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,7 +133,7 @@ spec.framework  = "UIKit"
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-spec.swift_version = '4.2'
+spec.swift_version = '5.0'
 
 spec.dependency 'RxSwift'
 spec.dependency 'RxCocoa'
